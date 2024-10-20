@@ -7,7 +7,8 @@ function App() {
       height: '100vh',
       display: 'flex',
       justifyContent: 'center',
-      alignItems: 'center'
+      alignItems: 'center',
+      flexDirection: 'column'
     }}>
       <div
         style={{
@@ -46,6 +47,16 @@ function App() {
           <p>This is the blog section.</p>
         </Section>
       </div>
+      <footer style={{
+        width: '100%',
+        textAlign: 'center',
+        padding: '10px',
+        backgroundColor: '#f1f1f1',
+        position: 'relative',
+        bottom: 0
+      }}>
+        <p>Footer content goes here</p>
+      </footer>
     </div>
   );
 }
